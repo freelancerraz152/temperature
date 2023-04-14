@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ddd;
+}
+
+img {
+	width: 100%;
+}
+.wrapper {
+	max-width: 400px;
+	width:100%;
+	background: #ffffff7a;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	padding: 20px;
+}
+.wrapper > h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+.image {
+	padding:10px;
+}
+.image img {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.inputWrapper {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+.inputWrapper input {
+	padding: 20px;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-bottom: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.inputWrapper input:focus {
+	border: 1px solid #ddd0;
+}
+.btnWrapper {
+	width: 120px;
+	margin: 0 auto;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ddd0;
+}
+.btn:hover {
+	background: #ddd;
+	color: #000;
+	border: 1px solid #08080873;
+	transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+}
